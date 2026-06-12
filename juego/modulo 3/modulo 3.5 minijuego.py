@@ -1,5 +1,7 @@
 print("¡Comienza el juego!")
-print("comer disminuye el hambre en 60 y descansar disminuye cansancio en 60, con 100 mueres y cada dia aumenta 30 en cada uno")
+print("comer disminuye el hambre en 60 y descansar " \
+"disminuye cansancio en 60, con 100 mueres y cada dia " \
+"aumenta 30 en cada uno")
 hambre = 30
 cansancio = 30
 vivo = True

@@ -1,3 +1,4 @@
+#muestra 3 dias
 dia = 1
 
 while dia <= 3:

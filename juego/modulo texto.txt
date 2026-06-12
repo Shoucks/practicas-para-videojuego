@@ -1,0 +1,18 @@
+Módulo 4 — Listas
+Aprender
+[]
+append()
+remove()
+Ejercicio 4
+
+Inventario simple:
+
+Espada
+Agua
+Comida
+
+Agregar y eliminar objetos.
+
+Tiempo estimado
+
+4-6 horas
