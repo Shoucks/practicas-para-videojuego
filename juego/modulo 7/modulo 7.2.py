@@ -35,3 +35,5 @@ while True:
 
     elif accion == "salir":
         break
+    else:
+        print("Error de tipeo")

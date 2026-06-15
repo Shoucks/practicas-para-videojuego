@@ -8,4 +8,4 @@ class Persona:
         self.edad = edad      # Atributo del objeto
     def saludar(self):
         print(f"Hola, me llamo {self.nombre}.")
-
+nombre.saludar()
