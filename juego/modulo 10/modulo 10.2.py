@@ -82,8 +82,7 @@ def usar_objeto(nombre, estado, inventario):
 
 inventario = [{"nombre": "Binoculares", "cantidad": 3, "cura": 0, "tipo": "uso"},
     {"nombre": "Diario y pluma", "cantidad": 3, "cura": 0, "tipo": "uso"},
-    {"nombre": "Daga arrojadiza", "cantidad": 3, "daña": 5, "tipo": "arma"},
-    {"nombre": "Daga recoleccion", "cantidad": 3, "recolecta": 1, "tipo": "uso"}]
+    {"nombre": "Daga arrojadiza", "cantidad": 3, "daña": 5, "tipo": "arma"},]
 #----------------------
 #Sistema completo
 #----------------------

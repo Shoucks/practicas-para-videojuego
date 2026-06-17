@@ -1,0 +1,204 @@
+Fase 1 — Python para crear videojuegos
+Objetivo final
+
+Ser capaz de programar en consola:
+
+Un inventario.
+Una criatura con comportamientos.
+Un bestiario.
+Un personaje.
+Un aliado simple.
+Módulo 1 — Fundamentos
+Aprender
+print()
+variables
+tipos de datos
+input()
+Ejercicio 1
+
+Crear:
+
+Nombre:
+Edad:
+Profesión:
+
+Y mostrar:
+
+Te llamas Juan y eres Explorador.
+Tiempo estimado
+
+2-4 horas
+
+Módulo 2 — Condicionales
+Aprender
+if
+elif
+else
+Ejercicio 2
+
+Crear:
+
+Si hambre > 70
+→ Necesitas comer
+
+Si hambre > 30
+→ Tienes hambre
+
+Si hambre < 30
+→ Estás bien
+Tiempo estimado
+
+3-5 horas
+
+Módulo 3 — Bucles
+Aprender
+while
+for
+Ejercicio 3
+
+Crear un ciclo día/noche:
+
+Día 1
+Día 2
+Día 3
+Tiempo estimado
+
+3-5 horas
+
+Módulo 4 — Listas
+Aprender
+[]
+append()
+remove()
+Ejercicio 4
+
+Inventario simple:
+
+Espada
+Agua
+Comida
+
+Agregar y eliminar objetos.
+
+Tiempo estimado
+
+4-6 horas
+
+Módulo 5 — Diccionarios
+
+Esto es muy importante para videojuegos.
+
+Aprender
+{
+    "nombre": "Agua",
+    "peso": 1
+}
+Ejercicio 5
+
+Crear objetos:
+
+Agua
+Comida
+Venda
+
+Cada uno con:
+
+peso
+valor
+cantidad
+Tiempo estimado
+
+4-6 horas
+
+Módulo 6 — Funciones
+Aprender
+def
+return
+Ejercicio 6
+
+Crear:
+
+comer()
+dormir()
+curar()
+Tiempo estimado
+
+4-6 horas
+
+Módulo 7 — Clases
+
+Aquí empieza la programación orientada a objetos.
+
+Aprender
+class
+Ejercicio 7
+
+Crear:
+
+Jugador
+
+Con:
+
+nombre
+energía
+hambre
+Tiempo estimado
+
+8-12 horas
+
+Módulo 8 — Primera criatura
+
+Crear:
+
+Leporlana
+
+Estados:
+
+comer
+dormir
+caminar
+Ejercicio
+
+Cada turno cambia de estado.
+
+Tiempo estimado
+
+6-10 horas
+
+Módulo 9 — Journal
+
+Crear:
+
+observaciones = []
+
+Registrar:
+
+La Leporlana come hierba.
+Tiempo estimado
+
+4-6 horas
+
+Módulo 10 — Proyecto final de Fase 1
+Sistema completo
+
+Jugador:
+
+energía
+nutrición
+
+Criatura:
+
+comer
+dormir
+caminar
+
+Journal:
+
+registra descubrimientos
+
+Inventario:
+
+recoge objetos
+Tiempo estimado
+
+10-20 horas

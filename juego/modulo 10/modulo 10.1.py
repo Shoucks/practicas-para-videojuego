@@ -98,7 +98,7 @@ print("Tiempo:", jugador0.tiempo,"/80")
 while True:
 
     print("\n----------------------")
-    print(f"Día {dia} - Hora {hora}:24")
+    print(f"Día {dia} - Hora {hora}:00")
 
     print("Estado de Lib-Lao:", criatura0.estado)
     print("----------------------")

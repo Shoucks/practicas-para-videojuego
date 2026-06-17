@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cmyxmqdjcmwb3"]
+
+[ext_resource type="Script" uid="uid://dydxy1eyiday7" path="res://main.gd" id="1_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://bm0cqpqurq5uj" path="res://Dark_Oracle_1/PNG/PNG Sequences/Hurt/0_Dark_Oracle_Hurt_000.png" id="1_ig7tw"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=564184365]
+input_pickable = true
+script = ExtResource("1_0xm2m")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1463863280]
+position = Vector2(1, 1)
+scale = Vector2(0.13555555, 0.13555555)
+texture = ExtResource("1_ig7tw")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=78107208]
+position = Vector2(63, 35)
+zoom = Vector2(2, 2)
