@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://djaalt26vdy28"]
+
+[ext_resource type="Script" uid="uid://cvo2rmqkcsmq1" path="res://main.gd" id="1_1bvp3"]
+[ext_resource type="Shader" uid="uid://b2v2vuj41pib7" path="res://tras.gdshader" id="2_1bvp3"]
+[ext_resource type="Script" uid="uid://crx01pl1o3v8p" path="res://camera_2d.gd" id="3_h2yge"]
+[ext_resource type="Texture2D" uid="uid://dma7w5snkrk7d" path="res://personaje.png" id="3_lquwl"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7mycd"]
+shader = ExtResource("2_1bvp3")
+
+[node name="Node2D" type="CharacterBody2D" unique_id=464431416]
+script = ExtResource("1_1bvp3")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1668470321]
+material = SubResource("ShaderMaterial_7mycd")
+position = Vector2(507, 300)
+texture = ExtResource("3_lquwl")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=79121972]
+position = Vector2(536, 319)
+position_smoothing_enabled = true
+rotation_smoothing_enabled = true
+script = ExtResource("3_h2yge")
+
+[node name="Node2D" type="Node2D" parent="." unique_id=233003893]

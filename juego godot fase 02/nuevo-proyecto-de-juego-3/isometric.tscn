@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://dw72b05fg3smf"]
+
+[ext_resource type="Script" uid="uid://cimauuhwlhqqf" path="res://character_body_2d.gd" id="1_ef52c"]
+[ext_resource type="Shader" uid="uid://c0hcw6q8esfqx" path="res://new_shader.gdshader" id="1_psgkd"]
+[ext_resource type="Texture2D" uid="uid://dma7w5snkrk7d" path="res://personaje.png" id="2_386op"]
+[ext_resource type="Shader" uid="uid://ceork28j7d8ce" path="res://isometric.gdshader" id="3_386op"]
+[ext_resource type="Script" uid="uid://cuhgww68e6fub" path="res://sprite_2d.gd" id="4_l7bvf"]
+[ext_resource type="Script" uid="uid://crx01pl1o3v8p" path="res://camera_2d.gd" id="5_456ob"]
+[ext_resource type="Texture2D" uid="uid://ddclhc0pi6x8n" path="res://prueba d.png" id="7_456ob"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_l7bvf"]
+shader = ExtResource("1_psgkd")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ef52c"]
+shader = ExtResource("3_386op")
+
+[node name="Node2D" type="Node2D" unique_id=1909045457]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=644784118]
+position = Vector2(41, 7)
+script = ExtResource("1_ef52c")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=282136419]
+material = SubResource("ShaderMaterial_l7bvf")
+position = Vector2(541, 327)
+texture = ExtResource("2_386op")
+script = ExtResource("4_l7bvf")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=1845073170]
+position = Vector2(536, 319)
+position_smoothing_enabled = true
+rotation_smoothing_enabled = true
+script = ExtResource("5_456ob")
+
+[node name="Node2D" type="Node2D" parent="." unique_id=378533773]
+position = Vector2(577, 328)
+
+[node name="Sprite2D" type="Sprite2D" parent="Node2D" unique_id=293827907]
+z_index = -1
+material = SubResource("ShaderMaterial_ef52c")
+position = Vector2(12, 2)
+texture = ExtResource("7_456ob")

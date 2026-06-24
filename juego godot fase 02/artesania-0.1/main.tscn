@@ -1,0 +1,101 @@
+[gd_scene format=3 uid="uid://by6sjm7vwbev7"]
+
+[ext_resource type="Script" uid="uid://b27rshj0rpbut" path="res://control.gd" id="1_0xm2m"]
+
+[node name="Control" type="Control" unique_id=387969549]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_0xm2m")
+
+[node name="Panel" type="Panel" parent="." unique_id=1453786403]
+layout_mode = 0
+offset_left = 643.0
+offset_top = 255.0
+offset_right = 1438.0
+offset_bottom = 756.0
+
+[node name="Titulo" type="Label" parent="Panel" unique_id=893357270]
+layout_mode = 0
+offset_left = 114.0
+offset_top = 40.0
+offset_right = 650.0
+offset_bottom = 141.0
+theme_override_font_sizes/font_size = 50
+text = "TALLER DE ARTESANIA"
+
+[node name="Materiales" type="Label" parent="Panel" unique_id=1258528839]
+layout_mode = 0
+offset_left = 298.0
+offset_top = 135.0
+offset_right = 477.0
+offset_bottom = 184.0
+theme_override_font_sizes/font_size = 35
+text = "Materiales"
+
+[node name="MaterialesTexto" type="Label" parent="Panel" unique_id=1690803539]
+layout_mode = 0
+offset_left = 321.0
+offset_top = 208.0
+offset_right = 466.0
+offset_bottom = 295.0
+theme_override_font_sizes/font_size = 30
+text = "Madera: 5
+Piedra: 3"
+
+[node name="CrearButton" type="Button" parent="Panel" unique_id=422763827]
+layout_mode = 0
+offset_left = 79.0
+offset_top = 208.0
+offset_right = 253.0
+offset_bottom = 265.0
+theme_override_font_sizes/font_size = 35
+text = "FABRICAR"
+
+[node name="MaderaButton" type="Button" parent="Panel" unique_id=777157399]
+layout_mode = 0
+offset_left = 516.0
+offset_top = 237.0
+offset_right = 690.0
+offset_bottom = 294.0
+theme_override_font_sizes/font_size = 35
+text = "Madera"
+
+[node name="PiedraButton" type="Button" parent="Panel" unique_id=1370819134]
+layout_mode = 0
+offset_left = 526.0
+offset_top = 159.0
+offset_right = 700.0
+offset_bottom = 216.0
+theme_override_font_sizes/font_size = 35
+text = "Piedra"
+
+[node name="SeleccionLabel" type="Label" parent="Panel" unique_id=408839540]
+layout_mode = 0
+offset_left = 100.0
+offset_top = 321.0
+offset_right = 219.0
+offset_bottom = 344.0
+text = "Seleccionandos"
+
+[node name="ResultadoLabel" type="Label" parent="Panel" unique_id=42877579]
+layout_mode = 0
+offset_left = 121.0
+offset_top = 419.0
+offset_right = 199.0
+offset_bottom = 442.0
+text = "Resultado"
+
+[node name="MetalButton" type="Button" parent="Panel" unique_id=688680990]
+layout_mode = 0
+offset_left = 512.0
+offset_top = 331.0
+offset_right = 671.0
+offset_bottom = 388.0
+theme_override_font_sizes/font_size = 35
+text = "Metal"
+
+[connection signal="pressed" from="Panel/MaderaButton" to="." method="_on_madera_button_pressed"]
+[connection signal="pressed" from="Panel/PiedraButton" to="." method="_on_piedra_button_pressed"]
+[connection signal="pressed" from="Panel/MetalButton" to="." method="_on_metal_button_pressed"]
